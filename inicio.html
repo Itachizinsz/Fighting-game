@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links da fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"/>
+    <!-- Styles -->
+    <style>
+        * {
+      box-sizing: border-box;
+      font-family: 'Press Start 2P', cursive;
+      background-image: url(./img/background.png);
+    }
+    ::-webkit-scrollbar{
+      width: 12px;
+    }
+
+    ::-webkit-scrollbar-track{
+      background-color: rgb(255, 255, 255);
+    }
+    ::-webkit-scrollbar-thumb{
+      background-color: #818cf8;
+      border-radius: 20px;
+      border: 3px solid #818cf8;
+    }
+
+    .text{
+      margin: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .btn1{background-color: aqua;}
+
+    .btn1,
+    .btn2,
+    .btn3
+    {
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    justify-content: center;
+    /*padding-right: 40%; */
+    }
+
+    .btn1:hover{
+      background-color: white;
+      color:rgb(0, 0, 0);
+    }
+    </style>
+
+    <title>Fighting game</title>
+</head>
+<body>
+  <div class="text" style="font-size: 20px; translate: -50%, 50%;">
+<p style="text-transform: uppercase; text-align: center; justify-content: center;">Fighting game</p>
+  </div>
+<div class="principal">
+  <div class="btn1">
+    <a href="./index.html" style="color: rgb(0, 0, 0); text-decoration: none;">Iniciar jogo</a>
+  </div>
+  <div class="btn2">
+  <a href="http://github.com" style="color: black; text-decoration: none;" target="blank">Mais informações</a> 
+  </div>
+  <div class="btn3">
+    <a href="http://instagram.com" style="color: black; text-decoration: none;" target="blank"> Meu instagram</a>
+  </div>
+</div>
+</body>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+</script>
+</html>
